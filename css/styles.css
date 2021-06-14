@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  background-color: aquamarine;
+  width: 100vw;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 20% 60% 20%;
+}
+section div {
+  background-color: plum;
+  border: 1px solid red;
+}
+section div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section div:nth-child(4) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+section div:nth-child(4) h3 {
+  display: flex;
+  justify-content: center;
+}
+section div:nth-child(4) ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+section div:nth-child(4) ul li {
+  margin: 10px 0 10px;
+}
+section div:nth-child(5) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+section div:nth-child(5) p {
+  text-align: center;
+  padding: 25px;
+}
+section div:nth-child(6) img {
+  contain: 100%;
+}
+section div:nth-child(8) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section div:nth-child(8) span {
+  color: whitesmoke;
+  font-weight: 300;
+  padding: 5px;
+}
+section div:nth-child(8) span a {
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=styles.css.map */
